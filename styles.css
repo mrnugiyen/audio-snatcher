@@ -1,0 +1,15 @@
+    #album-varasto {
+        display: flex;      /* Aktivoi flexboxin */
+        flex-wrap: wrap;    /* Sallii albumien siirtymisen seuraavalle riville */
+        gap: 20px;          /* Lisää väliä albumien väliin */
+        justify-content: center; /* Keskittää albumit sivulla */
+        padding: 20px;
+    }
+
+    .album-card {
+        width: 250px;       /* Määritellään kiinteä leveys per kortti */
+        text-align: center;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 8px;
+    }
