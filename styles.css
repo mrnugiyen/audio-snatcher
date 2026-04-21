@@ -1,11 +1,32 @@
+h1 {
+    font-size: 50px;
+}
 
+input {
+    padding: 10px;
+}
+
+body {
+    background-color: #FCEF91;
+}
+
+button {
+  background-color: #fd790c;
+  border-radius: 8px;
+  border-style: none;
+  color: #FFFFFF;
+  font-size: 14px;
+  height: 40px;
+  padding: 10px 16px;
+  text-align: center;
+}
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    margin: 50px;
+    padding: 50px 80px;
 }
 
 
@@ -22,6 +43,8 @@
     text-align: center;
     border: 1px solid #ddd;
     padding: 20px;
-    border-radius: 8px;
     margin: 2em;
+     border-radius: 30px;
+    background: #FB9E3A;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25);
 }
